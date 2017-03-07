@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;  
+}
+a img {
+    border: none;
+}
+html {
+  height: 100%;
+}
+body {position: relative;height: 100%;color: #000;font-size: 1rem;font-family:Verdana;}
+button {cursor: pointer;display: inline-block;padding: 7px 27px;color: #4d2464;font-size: 18px;border: 1px solid #3d4f0d;border-radius: 5px;}
+input[type="text"] {width: 300px;color: #3d4f0d;font-weight: bold;	border: 1px solid #d6b9ed;border-radius: 5px;padding: 8px;box-shadow: inset 0 3px 3px #d6b9ed;
+}
+h2 {color: #4d2464;font-size: 1.5rem;font-weight: bold;}
+.top-padding {padding: 90px 0 0;text-align: center;}
+
+.InfoLabel {color: red; padding: 10px 0; font-size: 0.8rem;}
+.InfoLabelRequest {color: #8a9d28;font-size: 0.8rem; font-weight: bold;font-family:Georgia;font-style: italic;}
+.SendResultError {color: red; padding: 10px 0; font-size: 0.8rem;}
+
+.MenuNav {position: fixed;top: 0;left: 0;right: 0;z-index: 999;text-align: center;background:#d6b9ed;}
+.MenuNav li {display: inline-block;line-height: 30px;margin: 0 0 0 30px;padding: 10px 5px;border-radius: 3px;}
+.MenuNav li:first-child {margin: 0;}
+.MenuNav li:hover {background: #9d53b3;}
+.MenuNav li:hover a {color: #d6b9ed;}
+.MenuNav li a.active {color: #9d53b3;}
+.MenuNav li:hover a.active {color: #d6b9ed;}
+.MenuNav li a {color: #8a9d28;font-size: 20px;font-weight: bold;}
+
+.InputItem {padding: 10px 0;}
+
+.LabelResult {padding: 10px 0;font-size: 0.9rem;}
+.LoanResult {padding: 10px 0 30px;color: #8a9d28;font-style: italic;font-family: Georgia;}
+
+.LoansStoryList {margin: 20px 0 0;}
+.LoansStoryList ul {width: 80%;display: inline-block;margin: 8px 0;padding: 10px;border: 2px dotted #9d53b3;border-radius: 3px;text-align: left;}
+.LoansStoryList ul li {display: inline-block;margin: 0 0 0 20px;color: #3d4f0d;}
+.LoansStoryList ul li:first-child {margin: 0;}
+.LoansStoryList ul li span {padding: 0 10px 0 0;color: #8a9d28;font-size: 0.8rem; font-weight: bold;font-family:Georgia;font-style: italic;}
+
+.window {position: fixed;top: 50%;left: 50%;padding: 20px 25px;min-width: 200px;background: #fff;border: 2px solid #9d53b3;border-radius: 20px;transform: translate(-50%, -50%);}
+.window p {padding: 15px 0;}
+.overlay {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background:rgba(192,192,192,0.6);z-index: 9999;}
